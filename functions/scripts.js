@@ -3,6 +3,7 @@ function getTriangleArea(a, h) {
 	    return 'pole trójkąta: ' + a *h / 2;
 	} else {
 	    document.write('Nieprawidłowe dane');
+	    return 'Nieprawidłowe dane';
 	}
 }
 console.log(getTriangleArea(10, 6));
