@@ -14,8 +14,9 @@ function drawTree (treeRow) {
 drawTree (5);
 
 
-// zadanie rozszerzone, całe drzewko
+/* zadanie rozszerzone,cała choinka - działa bez gornej gwiazdki
 function drawTree (treeRow) {
+//debugger
 	for ( var i = 0 ; i < treeRow ; i++) {
 		var space = '-';
 		for (var s = treeRow - i; s > 0 ; s--){
@@ -30,6 +31,7 @@ function drawTree (treeRow) {
 }
 
 drawTree (5);
+*/
 
 
 
