@@ -1,8 +1,8 @@
 
 var list = document.getElementById('list');
-var add = document.getElementById('addElem');
+var addButtonElement = document.getElementById('addElem');
 
-add.addEventListener('click', function() {
+addButtonElement.addEventListener('click', function() {
   var element = document.createElement('li');
   var liNumber = document.getElementsByTagName('li').length;
   element.innerHTML = 'item ' + liNumber; 
